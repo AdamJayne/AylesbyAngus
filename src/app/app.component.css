@@ -1,12 +1,12 @@
 nav {
     text-align: right;
-    background: rgb(174, 174, 174);
+    background: rgb(40, 40, 40);
     margin: 0;
     padding: 1em;
 }
 
 nav a {
-    background: rgb(146, 146, 146);
+    background: rgb(206, 206, 206);
     text-decoration: none;
     padding: 4px;
 }
