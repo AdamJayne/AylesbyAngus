@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angusApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aylesby Angus</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-toggleable navbar-inverse">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navCollapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">
+          Aylesby Angus
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navCollapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Herd</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <main ng-view>
+      <!-- views go here -->
+    </main>
+    <!-- scripts -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./page-config.js"></script>
+    <script src="controllers/home-controller.js"></script>
+    <script src="controllers/herd-controller.js"></script>
+    <script src="controllers/about-controller.js"></script>
+  </body>
+</html>
