@@ -1,6 +1,4 @@
-(function(){
-    angular.module('angusApp')
-    .controller('SalesController', ['$scope', function($scope){
+angular.module('angusApp')
+    .controller('SalesController', function($scope){
         console.log('Sale');
-    }]);
-})();
+    });

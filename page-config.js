@@ -21,8 +21,11 @@ var app = angular.module('angusApp', ['ngRoute'])
         .when('/forsale', {
             templateUrl: "views/forSale.html",
             controller: "SalesController"
+        }).when('/404', {
+            templateUrl: "views/404.html",
+            controller: "404Controller"
         }).otherwise({
-            redirectTo:'/home'
+            redirectTo:'/404'
         });
     $locationProvider
         .html5Mode(false)

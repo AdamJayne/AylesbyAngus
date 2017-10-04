@@ -1,6 +1,4 @@
-(function(){
-    angular.module('angusApp')
+angular.module('angusApp')
     .controller('HomeController', ['$scope', function($scope){
         console.log('Home');
     }]);
-})();
