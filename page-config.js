@@ -1,11 +1,9 @@
 var app = angular.module('angusApp', ['ngRoute'])
 .config(function($routeProvider, $locationProvider){
-    $locationProvider.hashPrefix('');
     $routeProvider
         .when('/', {
-            templateUrl: "views/home.html"
-        }).otherwise({
-            redirectTo: '/home'
+            templateUrl: "views/home.html",
+            controller: "HomeController"
         })
         .when('/home', {
             templateUrl: "views/home.html",
@@ -19,8 +17,17 @@ var app = angular.module('angusApp', ['ngRoute'])
         .when('/about', {
             templateUrl: "views/about.html",
             controller: "AboutController"
+        })
+        .when('/forsale', {
+            templateUrl: "views/forSale.html",
+            controller: "SalesController"
+        }).when('/404', {
+            templateUrl: "views/404.html",
+            controller: "404Controller"
         }).otherwise({
-            redirectTo: '/home'
+            redirectTo:'/404'
         });
-    $locationProvider.html5Mode(true);
+    $locationProvider
+        .html5Mode(false)
+        .hashPrefix('');
 });
