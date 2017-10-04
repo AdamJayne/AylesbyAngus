@@ -1,5 +1,6 @@
 var app = angular.module('angusApp', ['ngRoute'])
-.config(['$routeProvider', function($routeProvider){
+.config(function($routeProvider, $locationProvider){
+    $locationProvider.hashPrefix('');
     $routeProvider
         .when('/', {
             templateUrl: "views/home.html"
@@ -21,4 +22,5 @@ var app = angular.module('angusApp', ['ngRoute'])
         }).otherwise({
             redirectTo: '/home'
         });
-}]);
+    $locationProvider.html5Mode(true);
+});
