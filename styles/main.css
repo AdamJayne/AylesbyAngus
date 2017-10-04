@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+.navbar {
+    border-radius: 0;
+    margin-top: 0;
+}
+.navbar-right li a {
+    text-align: right;
+}
+#center {
+    text-align: center;
+}

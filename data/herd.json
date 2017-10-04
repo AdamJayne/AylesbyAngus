@@ -1,0 +1,29 @@
+{
+    "Herd": {
+        "Females": {
+            "willAnne": {
+                "name": "Williams Annie",
+                "age": "Old"
+            },
+            "chanelle": {
+                "name": "Chanelle",
+                "age": "Middle"
+            },
+            "abby": {
+                "name": "Abby",
+                "age": "Young"
+            }
+        },
+        "Males": {
+            "herdBull": {
+                "nebula": {
+                    "name": "Aylesby Nebula 084",
+                    "age": "2015"
+                }
+            },
+            "aiSires": {
+                
+            }
+        }
+    }
+}
