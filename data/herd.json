@@ -3,11 +3,13 @@
         "Females": {
             "willAnne": {
                 "name": "Williams Annie",
-                "age": "Old"
+                "age": "Old",
+                "img": ""
             },
             "chanelle": {
                 "name": "Chanelle",
-                "age": "Middle"
+                "age": "Middle",
+                "img": ""
             },
             "abby": {
                 "name": "Abby",
@@ -18,7 +20,8 @@
             "herdBull": {
                 "nebula": {
                     "name": "Aylesby Nebula 084",
-                    "age": "2015"
+                    "age": "2015",
+                    "img": ""
                 }
             },
             "aiSires": {

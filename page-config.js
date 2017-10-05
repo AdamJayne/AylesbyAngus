@@ -12,7 +12,7 @@ var app = angular.module('angusApp', ['ngRoute'])
         .when('/herd', {
             templateUrl:"views/herd.html",
             controller: "HerdController",
-            controllerAs: "herdController"
+            controllerAs: "ctrl"
         })
         .when('/about', {
             templateUrl: "views/about.html",
