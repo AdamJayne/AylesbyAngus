@@ -4,10 +4,21 @@ body {
 .navbar {
     border-radius: 0;
     margin-top: 0;
+    color: white;
+    font-size: 1.2em;
+    background-color: black;
+    border: none;
+}
+.navbar li a {
+    color: white;
 }
 .navbar-right li a {
     text-align: right;
+    color: white;
 }
 #center {
     text-align: center;
+}
+#logoimg {
+    height: 160px;
 }
